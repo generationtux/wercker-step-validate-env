@@ -1,5 +1,5 @@
 name: validate-env
-version: 0.0.3
+version: 0.0.4
 description: A public step for use with Wercker CI that will validate the environment configuration of the application.
 keywords:
   - validate
