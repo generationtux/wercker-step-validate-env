@@ -5,11 +5,6 @@ then
     fail 'missing files to compare environment variables against'
 fi
 
-if [ -z "$WERCKER_VALIDATE_ENV_ARGS" ]
-then
-    fail 'missing argments to correctly parse the environment variables'
-fi
-
 info $WERCKER_VALIDATE_ENV_FILES
 info $WERCKER_VALIDATE_ENV_ARGS
 
